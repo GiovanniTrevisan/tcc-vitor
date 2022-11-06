@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+}
+
+body {
+    font-family: montserrat;
+    background: linear-gradient(to right, #2abcd3, #6f71eb);
+    
+}
+
+
+.banner-text {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.banner-text ul {
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    width: 90%
+}
+
+.banner-text ul li {
+    display: inline-block;
+    padding: 40px 15px;
+}
+
+.banner-text ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 5px 10px;
+
+}
+
+.banner-text ul li a:hover {
+    background: rgb(200, 189, 245);
+    color: rgb(255, 255, 255);
+}
+
+.banner-text h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 15%;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.banner-text p {
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    line-height: 1.7;
+}
+
+.animation-area {
+    background: linear-gradient(to right, #2abcd3, #2ca5bb, #2d94c4, #6f71eb);
+    width: 100%;
+    height: 100vh;
+}
+
+.box-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav {
+    margin-top: 25px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 25px;
+}
+
+
+.active {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+
+    margin: auto;
+    color: rgb(255, 255, 255);
+    line-height: 1.7;
+}
+
+.title {
+    -moz-animation: animate 2s infinite;
+    -webkit-animation: animate 2s infinite;
+    -o-animation: animate 2s infinite;
+    animation: animate 2s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+a:hover {
+    color: #d1d1ff !important;
+    transform: scale(1.05);
+}
+
+.login{
+    width: 400px; 
+    border: 1px solid #4446ba;
+    padding: 40px 70px;
+    border-radius: 30px;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-12px) ;
+    }
+
+    50% {
+        transform: translateY(0) ;
+    }
+
+    100% {
+        transform: translateY(-12px) ;
+    }
+}
